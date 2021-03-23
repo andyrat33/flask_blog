@@ -1,4 +1,5 @@
-import sqlite3, os
+import sqlite3
+import os
 from flask import Flask, render_template, request, url_for, flash, redirect
 from werkzeug.exceptions import abort
 
